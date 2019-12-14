@@ -13,7 +13,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Init
     //% blockGap=8
-    //% block="LCD1IN8 Init"
+    //% block="LCD 初始化"
     //% shim=LCD1IN8::LCD_Init
     //% weight=200
     export function LCD_Init(): void {
@@ -22,7 +22,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Clear
     //% blockGap=8
-    //% block="Clear screen and cache"
+    //% block="清空屏幕和缓存"
     //% shim=LCD1IN8::LCD_Clear
     //% weight=195
     export function LCD_Clear(): void {
@@ -31,7 +31,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Filling
     //% blockGap=8
-    //% block="Filling Color %Color"
+    //% block="填充颜色 %Color"
     //% shim=LCD1IN8::LCD_Filling
     //% weight=194
     export function LCD_Filling(Color: number): void {
@@ -40,7 +40,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_Display
     //% blockGap=8
-    //% block="Send display data"
+    //% block="发送显示数据"
     //% shim=LCD1IN8::LCD_Display
     //% weight=190
     export function LCD_Display(): void {
