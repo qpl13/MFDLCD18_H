@@ -10,17 +10,17 @@
 #define LCD_HEIGHT  160 //LCD height
 
 enum LCD_COLOR {
-    WHITE = 0xFFFF,
-    BLACK = 0x0000,
-    BLUE = 0x001F,
+    BLACK = 0xFFFF,
+    WHITE = 0x0000,
+    YELLOW = 0x001F,
     BRED = 0XF81F,
     GRED = 0XFFE0,
     GBLUE = 0X07FF,
-    RED = 0xF800,
-    MAGENTA = 0xF81F,
-    GREEN = 0x07E0,
-    CYAN = 0x7FFF,
-    YELLOW = 0xFFE0,
+    CYAN = 0xF800,
+    GREEN = 0xF81F,
+    MAGENTA = 0x07E0,
+    RED = 0x7FFF,
+    BLUE = 0xFFE0,
     BROWN = 0XBC40,
     BRRED = 0XFC07,
     GRAY = 0X8430
