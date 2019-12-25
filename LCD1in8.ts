@@ -49,7 +49,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_DisplayWindows
     //% blockGap=8
-    //% block="Show Windows display data |Xstart %Xstart|Ystart %Ystart|Xend %Xend|Yend %Yend "
+    //% block="显示窗口大小 |X起点 %Xstart|Y起点 %Ystart|X终点 %Xend|Y终点 %Yend "
     //% shim=LCD1IN8::LCD_DisplayWindows
     //% Xstart.min=1 Xstart.max=160 Ystart.min=1 Ystart.max=128
     //% Xend.min=1 Xend.max=160 Yend.min=1 Yend.max=128
@@ -68,7 +68,7 @@ namespace LCD1IN8{
 
     //% blockId=LCD_SetBL
     //% blockGap=8
-    //% block="Set back light level %Lev"
+    //% block="设定LED背光强度 %Lev"
     //% Lev.min=0 Lev.max=10
     //% shim=LCD1IN8::LCD_SetBL
     //% weight=180
@@ -78,7 +78,7 @@ namespace LCD1IN8{
 
    //% blockId=DrawPoint
     //% blockGap=8
-    //% block="Draw Point|x %x|y %y|Color %Color|Point Size %Dot"
+    //% block="画点|x %x|y %y|Color %Color|点的大小 %Dot"
     //% x.min=1 x.max=160 y.min=1 y.max=128
     //% Color.min=0 Color.max=65535
     //% shim=LCD1IN8::DrawPoint
@@ -89,7 +89,7 @@ namespace LCD1IN8{
 
     //% blockId=DrawLine
     //% blockGap=8
-    //% block="Draw Line|Xstart %Xstart|Ystart %Ystart|Xend %Xend|Yend %Yend|Color %Color|Line width %Line_width|Line Style %Line_Style"
+    //% block="画直线|X起点 %Xstart|Y起点 %Ystart|X终点 %Xend|Y终点 %Yend|颜色 %Color|线宽 %Line_width|线条类型 %Line_Style"
     //% Xstart.min=1 Xstart.max=160 Ystart.min=1 Ystart.max=128
     //% Xend.min=1 Xend.max=160 Yend.min=1 Yend.max=128
     //% Color.min=0 Color.max=65535
@@ -138,7 +138,7 @@ namespace LCD1IN8{
 
     //% blockId=DrawRectangle
     //% blockGap=8
-    //% block="Draw Rectangle|Xstart2 %Xstart2|Ystart2 %Ystart2|Xend2 %Xend2|Yend2 %Yend2|Color %Color|Filled %Filled |Line width %Dot_Pixel"
+    //% block="画长方形|X起点 %Xstart|Y起点 %Ystart|X终点 %Xend|Y终点 %Yend|颜色 %Color|填充 %Filled |线宽 %Dot_Pixel"
     //% Xstart2.min=1 Xstart2.max=160 Ystart2.min=1 Ystart2.max=128
     //% Xend2.min=1 Xend2.max=160 Yend2.min=1 Yend2.max=128
     //% Color.min=0 Color.max=65535
@@ -164,7 +164,7 @@ namespace LCD1IN8{
 
     //% blockId=DrawCircle
     //% blockGap=8
-    //% block="Draw Circle|X_Center %X_Center|Y_Center %Y_Center|Radius %Radius|Color %Color|Filled %Draw_Fill|Line width %Dot_Pixel"
+    //% block="画圆|X中心 %X_Center|Y中心 %Y_Center|半径 %Radius|颜色 %Color|填充 %Draw_Fill|线宽 %Dot_Pixel"
     //% X_Center.min=1 X_Center.max=160 Y_Center.min=1 Y_Center.max=128
     //% Radius.min=0 Radius.max=160
     //% Color.min=0 Color.max=65535
@@ -227,7 +227,7 @@ namespace LCD1IN8{
 
     //% blockId=DisString
     //% blockGap=8
-    //% block="Show String|X %Xchar|Y %Ychar|char %ch|Color %Color"
+    //% block="显示字符|X %Xchar|Y %Ychar|字符 %ch|颜色 %Color"
     //% Xchar.min=1 Xchar.max=160 Ychar.min=1 Ychar.max=128
     //% Color.min=0 Color.max=65535
     //% weight=100
@@ -262,7 +262,7 @@ namespace LCD1IN8{
 
     //% blockId=DisNumber
     //% blockGap=8
-    //% block="Show number|X %Xnum|Y %Ynum|number %num|Color %Color"
+    //% block="显示数字|X %Xnum|Y %Ynum|数字 %num|颜色 %Color"
     //% Xnum.min=1 Xnum.max=160 Ynum.min=1 Ynum.max=128
     //% Color.min=0 Color.max=65535
     //% weight=100
